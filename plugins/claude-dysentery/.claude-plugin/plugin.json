@@ -1,0 +1,9 @@
+{
+  "name": "claude-dysentery",
+  "description": "Keep Claude from abandoning the wagon one permission question before the work is done.",
+  "version": "1.0.0",
+  "author": { "name": "DevDocs", "url": "https://devdocs.ai" },
+  "homepage": "https://dysentery.devdocs.ai",
+  "repository": "https://github.com/devdocsorg/claude-dysentery",
+  "license": "MIT"
+}
