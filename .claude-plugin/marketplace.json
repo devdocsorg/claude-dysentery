@@ -1,0 +1,7 @@
+{
+  "name": "devdocs-tools",
+  "owner": { "name": "DevDocs", "url": "https://devdocs.ai" },
+  "description": "Developer tools for coding agents that need to finish the job.",
+  "version": "1.0.0",
+  "plugins": [{ "name": "claude-dysentery", "source": "./plugins/claude-dysentery", "description": "Installs the Oregon Trail directive into your global Claude Code memory.", "version": "1.0.0", "author": { "name": "DevDocs" } }]
+}
