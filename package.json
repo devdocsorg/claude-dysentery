@@ -1,0 +1,14 @@
+{
+  "name": "claude-dysentery",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "Keep Claude from abandoning the wagon one permission question before the work is done.",
+  "license": "MIT",
+  "scripts": {
+    "build": "bash scripts/build.sh",
+    "validate": "node scripts/validate-artifact.mjs",
+    "test": "node scripts/test-worker.mjs",
+    "check": "npm run build && npm run validate && npm test"
+  }
+}
